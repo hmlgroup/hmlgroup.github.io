@@ -23,6 +23,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">
 
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	
+	
 	<!--
 			CSS
 			============================================= -->
@@ -80,13 +84,6 @@
 						Propose your own seminar!
 					</h1>
 					<p>Do you want to present your research project? Or maybe you want to present some interesting work? Fill the form below.</p>
-					<div class="link-nav">
-						<span class="box">
-							<a href="index.html">Home </a>
-							<i class="lnr lnr-arrow-right"></i>
-							<a href="elements.html">Elements</a>
-						</span>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -96,27 +93,11 @@
 	</section>
 	<!-- End Banner Area -->
 
-	<!-- Start Sample Area -->
-	<!-- <section class="sample-text-area"> -->
-		<!-- <div class="container"> -->
-			<!-- <h3 class="text-heading">Text Sample</h3> -->
-			<!-- <p class="sample-text"> -->
-				<!-- Every avid independent filmmaker has <b>Bold</b> about making that <i>Italic</i> interest documentary, or short film -->
-				<!-- to show off their creative prowess. Many have great ideas and want to “wow” the<sup>Superscript</sup> scene, or video -->
-				<!-- renters with their big project. But once you have the<sub>Subscript</sub> “in the can” (no easy feat), how do you move -->
-				<!-- from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked hand-written title inside a secondhand -->
-				<!-- CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on -->
-				<!-- your doorstep? You need to create eye-popping artwork and have your project replicated. Using a reputable full service -->
-				<!-- DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional -->
-				<!-- end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results: -->
-
-			<!-- </p> -->
-		<!-- </div> -->
-	<!-- </section> -->
 	
-			<div class="section-top-border">
-				<div class="row">
-					<div class="col-lg-8 col-md-8">
+			<div class="section-full">
+				<!-- <div class="row"> -->
+				<div class="row d-flex align-items-center justify-content-center">
+					<div class="col-lg-5 col-md-8">
 						<h3 class="mb-30">Submit Form</h3>
 						<form action="#">
 							<div class="mt-10">
@@ -128,7 +109,7 @@
 								 required class="single-input">
 							</div>
 							<div class="input-group-icon mt-10">
-								<div class="icon"><i class="fa fa-thumb-tack" aria-hidden="true"></i></div>
+								<div class="icon"><i class="fas fa-at"></i></div>
 								<input type="email" name="EMAIL" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address'"
 								 required class="single-input">
 							</div>
@@ -138,136 +119,15 @@
 							</div>
 							
 							<div class="mt-10">
-								<textarea class="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'"
+								<textarea class="single-textarea" placeholder="Description" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Description'"
 								 required></textarea>
 							</div>
-							<!-- For Gradient Border Use -->
-							<!-- <div class="mt-10">
-										<div class="primary-input">
-											<input id="primary-input" type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'">
-											<label for="primary-input"></label>
-										</div>
-									</div> -->
 						</form>
-					</div>
-					<div class="col-lg-3 col-md-4 mt-sm-30">
-						<div class="single-element-widget">
-							<h3 class="mb-30">Switches</h3>
-							<div class="switch-wrap d-flex justify-content-between">
-								<p>01. Sample Switch</p>
-								<div class="primary-switch">
-									<input type="checkbox" id="default-switch">
-									<label for="default-switch"></label>
-								</div>
-							</div>
-							<div class="switch-wrap d-flex justify-content-between">
-								<p>02. Primary Color Switch</p>
-								<div class="primary-switch">
-									<input type="checkbox" id="primary-switch" checked>
-									<label for="primary-switch"></label>
-								</div>
-							</div>
-							<div class="switch-wrap d-flex justify-content-between">
-								<p>03. Confirm Color Switch</p>
-								<div class="confirm-switch">
-									<input type="checkbox" id="confirm-switch" checked>
-									<label for="confirm-switch"></label>
-								</div>
-							</div>
-						</div>
-						<div class="single-element-widget mt-30">
-							<h3 class="mb-30">Selectboxes</h3>
-							<div class="default-select" id="default-select" ">
-										<select>
-											<option value="1 ">English</option>
-											<option value="1 ">Spanish</option>
-											<option value="1 ">Arabic</option>
-											<option value="1 ">Portuguise</option>
-											<option value="1 ">Bengali</option>
-										</select>
-									</div>
-								</div>
-								<div class="single-element-widget mt-30 ">
-									<h3 class="mb-30 ">Checkboxes</h3>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>01. Sample Checkbox</p>
-										<div class="primary-checkbox ">
-											<input type="checkbox " id="default-checkbox ">
-											<label for="default-checkbox "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>02. Primary Color Checkbox</p>
-										<div class="primary-checkbox ">
-											<input type="checkbox " id="primary-checkbox " checked>
-											<label for="primary-checkbox "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>03. Confirm Color Checkbox</p>
-										<div class="confirm-checkbox ">
-											<input type="checkbox " id="confirm-checkbox ">
-											<label for="confirm-checkbox "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>04. Disabled Checkbox</p>
-										<div class="disabled-checkbox ">
-											<input type="checkbox " id="disabled-checkbox " disabled>
-											<label for="disabled-checkbox "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>05. Disabled Checkbox active</p>
-										<div class="disabled-checkbox ">
-											<input type="checkbox " id="disabled-checkbox-active " checked disabled>
-											<label for="disabled-checkbox-active "></label>
-										</div>
-									</div>
-								</div>
-								<div class="single-element-widget mt-30 ">
-									<h3 class="mb-30 ">Radios</h3>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>01. Sample radio</p>
-										<div class="primary-radio ">
-											<input type="checkbox " id="default-radio ">
-											<label for="default-radio "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>02. Primary Color radio</p>
-										<div class="primary-radio ">
-											<input type="checkbox " id="primary-radio " checked>
-											<label for="primary-radio "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>03. Confirm Color radio</p>
-										<div class="confirm-radio ">
-											<input type="checkbox " id="confirm-radio " checked>
-											<label for="confirm-radio "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>04. Disabled radio</p>
-										<div class="disabled-radio ">
-											<input type="checkbox " id="disabled-radio " disabled>
-											<label for="disabled-radio "></label>
-										</div>
-									</div>
-									<div class="switch-wrap d-flex justify-content-between ">
-										<p>05. Disabled radio active</p>
-										<div class="disabled-radio ">
-											<input type="checkbox " id="disabled-radio-active " checked disabled>
-											<label for="disabled-radio-active "></label>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
+				<!-- </div> -->
+			<!-- </div> -->
 			<!-- End Align Area -->
 
 			<!-- Start Footer Area -->
