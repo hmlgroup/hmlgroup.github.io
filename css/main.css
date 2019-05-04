@@ -1046,7 +1046,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  /* background: #f9f9ff; */
+  background: #ffffff;
   padding: 0 20px; }
   .single-input:focus {
     outline: none; }
@@ -1070,7 +1071,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 40px;
   border: none;
   outline: none;
-  background: #f9f9ff;
+  /* background: #f9f9ff; */
+  background: #ffffff;
   padding: 0 20px;
   height: 100px;
   resize: none; }
