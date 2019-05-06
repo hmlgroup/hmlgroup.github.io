@@ -1784,7 +1784,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff; }
 
 .home-banner-area {
-  background: url(../img/header-bg.png) no-repeat top center;
+  /*background: url(../img/header-bg.png) no-repeat top center;*/
+  background: url(../img/campus.jpg) no-repeat top center;
   background-size: cover; }
   @media (max-width: 767.98px) {
     .home-banner-area .fullscreen {
