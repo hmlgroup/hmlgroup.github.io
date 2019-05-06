@@ -1875,8 +1875,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 0 auto; }
 
 .banner-area {
-  background: url(../img/banner-bg.png) no-repeat top center;
-  background-size: cover;
+  background: url(../img/mount.jpg) no-repeat top center;
+/*  background: url(../img/banner-bg.png) no-repeat top center;
+*/  background-size: cover;
   min-height: 512px; }
 
 @media (max-width: 991px) {
