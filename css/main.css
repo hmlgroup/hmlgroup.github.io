@@ -2183,10 +2183,16 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #39cfca; }
   .blog-home-banner .primary-btn {
     color: #fff;
-    background: #39cfca; }
+    background: #39cfca; 
+	/* color: #39cfca; */
+    /* background: #fff;  */
+  }
     .blog-home-banner .primary-btn:hover {
       color: #39cfca;
-      background: #fff; }
+      background: #fff; 
+	    /* color: #fff; */
+		/* background: #39cfca;  */
+	}
   .blog-home-banner .overlay-bg {
     background: rgba(0, 0, 0, 0.3); }
 
